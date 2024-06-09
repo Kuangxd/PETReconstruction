@@ -7,6 +7,7 @@
 ## Getting Started
 - Modify the model save path (--checkpoints_dir) in the `01-TICCGAN/options/base_options.py` file according to the user's running environment.
 - Modify the system path in the `00-ncamar-release/dl_function.py` file according to the user's running environment.
+- Unzip the file `latest_net_G.pth` in the `01-TICCGAN/checkpoints/resnet_block6` directory.
 
 ### Testing our method
 - Set w_svd to 0.03 in `00-pet.py`, and then run
